@@ -1,0 +1,53 @@
+# ROCK-PAPAER-SCISSOR GAME:
+# GAME INPUTS:
+# 1- ROCK
+# 2- PAPER 
+# 3- SCISSOR
+# import tkinter as tk
+import random
+# def game():
+print("-----WELCOME TO PYTHON ROCK-PAPAER-SCISSOR GAME-----")
+
+# root = tk.Tk()
+# button = tk.Button(root, text="CLICK TO START THE GAME", font =("Normal", 16), width = 30, height = 5, bg = "blue", fg = "white" )
+# button.pack(anchor = "center")
+# button.config(command=game)
+# button.config(font =("Normal", 16),width = 50, height = 60, bg = "white", fg = "black"  )
+# button.pack()
+# root.title("ROCK-PAPER-SCISSOR GAME")
+
+# label =tk.Label (root,  font =("Normal", 16),width = 50, height = 60, bg = "white", fg = "black"  )
+# label.pack(anchor = "center")
+# root.mainloop()
+Game_list = ["ROCK" , "PAPER" , "SCISSOR"]
+
+user_move = input("enter your move = ")
+comp_move = random.choice(Game_list)
+print(f"your choice is:{user_move} and comuter choice is:{comp_move}")
+
+# USING CONDITIONALS 
+if user_move == comp_move:
+    print("GAME TIED....")
+elif user_move == "ROCK":
+    if comp_move == "PAPER":
+        print("computer won because paper covers rock...")
+    if comp_move == "SCISSOR":
+        print("YOU WON BECAUSE ROCK BREAKS SCISSOR...")
+
+elif user_move == "PAPER":
+    if comp_move == "ROCK":
+        print("YOU WON BECAUSE PAPAER COVERS ROCK...")
+    if comp_move == "SCISSOR":
+        print("COMPUTER WON BECAUSE SCISSOR CUTS PAPER...")
+    
+elif user_move == "SCISSOR":
+    if comp_move == "ROCK":
+        print("COMPUTER WON BECAUSE ROCK BREAKS SCISSOR...")
+    if comp_move == "PAPER":
+        print("YOU WON BECAUSE SCISSOR CUTS PAPER...")
+
+else:
+    print("Invalid Input...")
+
+print("----GAME OVER---- ")
+
