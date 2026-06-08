@@ -1,0 +1,31 @@
+def add_expense(database_list):
+    new_expense = input ("Enter what kind of expense you want to add: ")
+    expense_amour = float(input("Enter the amount of expens = "))
+    
+    pass
+def main():
+    print("---WELCOME TO YOUR EXPENSE TRACKER APP---")
+    database = []
+    while True:
+        print("1- for Add Expense")
+        print("2- for View All Expense")
+        print("3- for Exit Expense")
+
+        user_choice = input("Enter your choice: ")
+        if user_choice == "1":
+            choice_add = input("enter the expense detail you want to add:")
+            pass
+        elif user_choice == "2":
+            print("view all expense")
+        elif user_choice == "3":
+            print("---EXITING EXPENSE TRACKER APP---")
+            break
+        else:
+            print("Invalid Input, please try again.")
+
+
+
+
+
+if __name__ == "__main__":
+    main() 

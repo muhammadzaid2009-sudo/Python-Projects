@@ -1,0 +1,31 @@
+PRJECTS TO MAKE IN PYTHON BY MYSELF:
+
+1. Number Guessing Game
+Computer picks a number and you guide the user with higher or lower hints.
+
+2. Basic Calculator
+Handle addition, subtraction, multiplication, division and input errors.
+
+3. Rock Paper Scissors
+Play against the computer and add scoring.
+
+4. Password Strength Checker
+Check if a password has numbers, symbols, capital letters and minimum length.
+
+5. Quiz Game
+Ask multiple choice questions, track score and give feedback.
+
+6. Unit Converter
+Convert temperature, distance, time or currency with simple formulas.
+
+7. Alarm Timer
+Let the user set a countdown timer and show a message when it finishes.
+
+8. Dice Roller
+Simulate rolling one or more dice and show results.
+
+9. Text Analyzer
+Count words, letters, sentences and find most common words in a text.
+
+10. Simple Budget Tracker
+Add expenses, subtract from balance and show totals.
