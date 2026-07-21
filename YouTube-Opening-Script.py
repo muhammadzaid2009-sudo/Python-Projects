@@ -1,13 +1,17 @@
-import pyautogui as s
-import time
-s.press("win")
+import pyautogui as p
+import time 
+p.press("win")
 time.sleep(1)
-s.write("whatsapp", interval=0.2)
-s.press("enter")
-time.sleep(0.2)
-s.hotkey("ctrl" ,"f")
+p.write("edge",interval=0.2)
+p.press("enter")
+time.sleep(3)
+p.hotkey("ctrl","l")
+p.write("youtube.com",interval=0.2)
+p.press("enter")
+time.sleep(3)
+p.hotkey("/")
 time.sleep(1)
-s.write("zaid 2", interval=0.2)
-s.press("enter")
-s.write("hello bro how are you", interval=0.2)
-s.press("enter")
+p.write("apna collage", interval=0.2)
+p.press("enter")
+time.sleep(3)
+p.click(width=1920, height=1080) 
